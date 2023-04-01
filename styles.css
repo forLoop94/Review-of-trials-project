@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+  font-size: 20px;
+}
+
+.nav-bar, .group1, .group2, .group3 {
+  display: flex;
+  justify-content: space-between;
+  color: red;
+  padding: 5px 15px;
+}
+
+.body-div {
+  display: flex;
+  justify-content: center;
+  padding: 50px 300px;
+}
+.menu-btn {
+  border: none;
+  outline: none;
+}
+
+.search-input {
+  border-radius: 40px;
+  width: 900px;
+  font-size: 25px;
+  margin: 10px 0px 0px 60px;
+  border: 2px solid rgb(154, 148, 148);
+  padding: 10px 30px;
+}
+
+.search-icon, .microphone {
+  border: none;
+  height: 50px;
+  margin: 20px;
+}
+
+.group1 > div {
+  margin: 0px 20px;
+}
+
+.side-bar-nav {
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 500;
+  margin: 0px 30px;
+}
+.side-bar-nav > div {
+  background-color: rgb(224, 227, 230);
+  margin: 10px;
+  font-size: 22px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.preview-section {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  font-size: 18px;
+}
+
+.preview-section > div {
+  margin: 5px 20px;
+}
+.preview-section > img {
+  border-radius: 10px;
+}
+iframe {
+  border-radius: 10px;
+}
+.preview-title {
+  font-weight: 700;
+  margin-bottom: 20px;
+  width: 300px;
+}
+.account-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.account-info-g1 {
+  display: flex;
+  justify-content: space-between;
+}
+.account-info-g1 > div {
+  margin: 20px;
+}
+.name-subscribers {
+  display: flex;
+  flex-direction: column;
+}
+
+.current-video-title {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px 0px;
+}
+
+.subscribe-button {
+  background-color: black;
+  border-radius: 35px;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+}
+.account-info-g2 > img{
+  margin: 0px 25px;
+}
+.hashtags-description {
+  background-color: rgb(229, 231, 233, 0.5);
+  margin-top: 20px;
+}
+.hashtags, .time-of-comment {
+  color: rgb(98, 99, 100);
+}
+.comments {
+  margin-top: 20px;
+}
+.comments > div {
+  margin-bottom: 50px;
+}
+
+.comments > div > img {
+  float: left;
+  margin-right: 20px;
+}
+.comment-icons {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 50px;
+}
+.comment-icons > div, .comment-icons > img {
+  margin-left: 10px;
+}
+.comments > div > input {
+  border: none;
+  border-bottom: 2px solid rgb(211, 200, 200);
+  margin-left: 20px;
+}
